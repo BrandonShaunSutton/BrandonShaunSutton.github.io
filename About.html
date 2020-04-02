@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head> <title>Resume</title>
+<style>
+	.green-text {
+				 font-family: monospace;
+				 font-size: 15px;
+				 color: green;
+				 }
+    .size{
+        font-size: 12px;
+        }
+    .size2{
+        font-size: 14px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body bgcolor="lightgrey">
+	
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="index.html#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="projects.html#" class="w3-bar-item w3-button w3-mobile">Projects</a>
+  <a href="about.html#" class="w3-bar-item w3-button w3-mobile">About</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-light-blue w3-mobile">
+  <button class="w3-button w3-light-blue w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1 style="text-shadow:1px 1px 0 #444"> OOPS!</h1>
+  </div>
+</div>
+
+<div class="w3-container w3-mobile">
+<p class="w3-center">Nothing here yet!</p>
+</div>
+
+<br>
+<img src= "" alt="" style="width:100%">
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
